@@ -236,6 +236,12 @@
     margin-bottom: 10px;
 }
 
+.by-step-group-items-step-text{
+    font-size: 12pt;
+    line-height: 13pt;
+
+}
+
 /* STEP 1 */
 .-step-1{
     display: flex;
@@ -329,6 +335,11 @@
     margin-bottom: 10px;
 }
 
+.confidence-group-items-group-text{
+    font-size: 12pt;
+    line-height: 13pt;
+}
+
 .reserve{
     margin: auto;
     padding: 50px 0;
@@ -350,7 +361,8 @@
 
 .reserve-group-text{
     text-align: center;
-    padding: 30px 0;
+    padding: 30px 10px;
+    line-height: 13pt;
 }
 
 .footer{
