@@ -3,6 +3,33 @@
     .service, service-group{
         width: 100%;
     }
+
+    .by-step-group-items-step-step-1-img{
+        margin-left: 0;
+    }
+
+    .-step-1{
+        padding: 10px;
+    }
+
+    .by-step-group-items-step-step-1-img{
+        margin-left: 3%;
+    }
+
+    .card-comment-box{
+        margin-left: 3%;
+    }
+
+    .comment-group{
+        margin: 30px 0;
+        display: flex;
+        flex-flow: column;
+        align-items: center;   
+    }
+
+    .comment-group-img{
+        margin-bottom: 10px;
+    }
 }
 
 
