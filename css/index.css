@@ -1,0 +1,384 @@
+.main-header{
+    margin: auto;
+    width: 100%;
+    height: 420px;
+    background: var(--bgc-2);
+}
+
+.main-header-group{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-header-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* service */
+
+.service{
+    margin: auto;
+    margin-top: -70px;
+    background: #fff;
+    padding: 100px 50px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.service-title-first{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.service-title-second{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.service-group{
+    /* display: flex; */
+    /* flex-flow: column; */
+    margin: auto;
+}
+
+.service-group-items{
+    padding: 20px 0;
+    font-size: 1rem;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.service-group-items-text{
+    line-height: 1.4rem;
+}
+
+.material-symbols-outlined{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  border: solid 3px var(--bgc-1); 
+  border-radius: 50%;
+  color: var(--bgc-1);
+  margin-right: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+/* comment */
+
+.comment{
+    margin: 90px auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.comment-group{
+    margin: 30px 0;
+    display: flex;
+    flex-flow: row;
+    align-items: center;   
+}
+
+.comment-group-img{
+    width: 150px;
+    margin-right: 15px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.comment-group-speaks-text{
+    line-height: 1.4rem;
+}
+
+
+/* INFO SERVICE */
+
+.info-service{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    background: var(--bgc-1);
+    color: #fff;
+    padding: 30px;
+}
+
+.info-service-group{
+    margin-left: calc(5%);
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.info-service-group-img{
+    /* width: 90px; */
+    height: 90px;
+    margin-right: 20px;
+}
+
+.info-service-group-items-title{
+    font-size: 1.8rem;
+}
+
+/* BENEFIT */
+
+
+.benefit{
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.benefit-title{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.benefit-items{
+    border: solid 1px #eee;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px #ddd;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.benefit-items-img{
+    /* width: 90px; */
+    height: 90px;
+
+}
+
+.benefit-items-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.benefit-items-text{
+    line-height: 1.4rem;
+}
+
+/* BY STEP */
+.by-step{
+    margin: auto;
+}
+
+.by-step-title{
+    display: flex;
+    flex-flow: column;
+}
+
+.by-step-group{
+    display: flex;
+    flex-flow: column;
+    border-bottom: solid 0.5px #eee;
+    margin: 30px 0;
+    padding: 20px 0;
+    
+}
+
+.by-step-group-items-step{
+    width: 100%;
+}
+
+.-card-comment{
+    border: solid 1px #eee;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px #ddd;
+
+}
+.-info-contacto{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    padding: 30px 0;
+    margin: auto;
+    width: 60%;
+    position: relative;
+}
+
+.by-step-group-number{
+    background: var(--bgc-1);
+    color: #fff;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    
+}
+
+.-right{
+    left: -60px;
+}
+
+.-left{
+    right: -60px;
+}
+
+
+
+.by-step-group-items-step-title{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* STEP 1 */
+.-step-1{
+    display: flex;
+    flex-flow: row;
+    padding: 20px 20px;
+}
+
+.by-step-group-items-step-step-1-img{
+    margin-left: 10%;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.card-comment-box{
+    margin-left: 10%;
+}
+
+.card-comment-box-local{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+/* STEP 2 */
+.-comment-step2{
+    padding: 15px;
+    width: 70%;
+    border: solid 1px #eee;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px #ddd;
+    margin-top: 30px;
+}
+
+.-comment-step2:nth-child(even){
+    margin-left: 30%;
+    background: var(--bgc-3);
+    color: #000;
+    text-align: right;
+}
+
+.time{
+    color: #646464;
+    font-size: 9pt;
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* CONFIDENCE */
+
+.confidence{
+    margin: auto;
+    background: var(--bgc-1);
+    display: flex;
+    flex-flow: column;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.confidence-title{
+    padding: 0 30px;
+    text-align: center;
+}
+
+.confidence-group{
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.confidence-group-items{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-bottom: solid 0.4px #e3e3e3;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.confidence-group-items-img{
+    /* width: 120px; */
+    height: 120px;
+    margin-bottom: 30px;
+}
+
+.confidence-group-items-group-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.reserve{
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+.reserve-group{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.reserve-group-title{
+    font-weight: 600;
+}
+
+.reserve-group-text{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer{
+    width: 100%;
+    margin: auto;
+    padding: 30px 0;
+    background: var(--bgc-2);
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.footer-rede-social{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+
+}
+
+.footer-rede-social-img{
+    width: 50px;
+    height: 50px;
+    filter: grayscale(100%);
+
+}
+
+.footer-rede-social-img:hover{
+    filter: grayscale(0);
+    transition: filter 200ms ease-in-out;
+}

@@ -1,0 +1,90 @@
+@media (max-width: 380px){
+
+}
+
+@media (min-width: 800px){
+   
+    .info-service{
+        display: flex;
+        flex-flow: row;
+    }
+
+    .info-service-group{
+        /* margin-left: calc(5%); */
+        display: flex;
+        flex-flow: column;
+
+    }
+
+    .info-service-group-items{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* benefit */
+    .benefit-group{
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    .benefit-items{
+        min-width: 40%;
+        max-width: 40%;
+    }
+
+    /* CONFIDENCE */
+
+    .confidence-group{
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    .confidence-group-items{
+        max-width: 40%;
+        min-width: 40%;
+    }
+
+
+}
+
+@media (min-width: 1000px){
+
+        /* CONFIDENCE */
+
+        .confidence-group{
+            width: 100%;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-around;
+        }
+    
+        .confidence-group-items{
+            max-width: 30%;
+            min-width: 30%;
+        }
+   
+
+            /* comment */
+
+    .comment{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .comment-group{
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+
+    }
+
+    .by-step{
+        width: 70%;
+    }
+}

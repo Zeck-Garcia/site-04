@@ -1,0 +1,143 @@
+/* font-family: 'Noto Sans Mono', monospace; */
+
+*{
+    font-family: 'Noto Sans Mono'
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bgc-1: #fb6066; /**/
+    
+    --bgc-2: #ffefc1; /**/
+    
+    --bgc-3: #fdd86e; /**/
+    
+    --bgc-4: #ffa463; /**/
+    
+    --bgc-5: #f66b40; /**/
+    
+    }
+
+    
+/* background */
+.bgc-01{
+    background: #FFEB91;
+}
+
+.bgc-02{
+    background: #124C5F;
+}
+
+.bgc-03{
+    background: #C7E7E1;
+}
+
+.bgc-04{
+    background: #1DBF73;
+}
+
+.bgc-05{
+    background: #3A8DA8;
+}
+
+.bgc-06{
+    background: #F6FAF9;
+}
+
+.bgc-07{
+    background: rgb(241, 241, 241);
+}
+
+.bgc-08{
+    background: #fff;
+}
+
+/* color */
+.font-color-01{
+    color: #979697;
+}
+
+.font-color-02{
+    color: #000;
+}
+
+.font-color-03{
+    color: #124C5F;
+}
+
+.font-color-04{
+    color: #979697;
+}
+
+.font-color-05{
+    color: #fff;
+}
+
+/* font-family */
+
+.font-family-01{
+ 
+}
+
+.font-family-02{
+  
+}
+
+.font-family-03{
+
+}
+
+.font-family-04{
+
+}
+
+
+
+.title-01{
+    font-size: 2rem;
+}
+
+.title-02{
+    font-size: 1.8rem;
+}
+
+.title-03{
+    font-size: 1.6rem;
+}
+
+.title-04{
+    font-size: 1.4rem;
+}
+
+
+/* body-90% */
+.body-90{
+    width: 90%;
+}
+
+.body-80{
+    width: 80%;
+}
+
+.body-70{
+    width: 70%;
+}
+
+.btn-contacto{
+    width: 270px;
+    height: 60px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 5px #ccc;
+    background: var(--bgc-1);
+    font-size: 1.2rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-02{
+
+}
+
