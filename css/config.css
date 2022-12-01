@@ -130,6 +130,7 @@ html{
     width: 270px;
     height: 60px;
     border-radius: 9px;
+    border: none;
     box-shadow: 1px 1px 5px #ccc;
     background: var(--bgc-1);
     font-size: 1.2rem;

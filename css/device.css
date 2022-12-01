@@ -1,6 +1,11 @@
-@media (max-width: 380px){
-
+@media (max-width: 800px){
+    /* service */
+    .service, service-group{
+        width: 100%;
+    }
 }
+
+
 
 @media (min-width: 800px){
    
