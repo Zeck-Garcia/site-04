@@ -36,15 +36,21 @@
 
 @media (min-width: 800px){
    
+    .main-header-title{
+        padding: 0 70px;
+    }
+
     .info-service{
         display: flex;
         flex-flow: row;
+        justify-content: space-around;
     }
 
     .info-service-group{
         /* margin-left: calc(5%); */
         display: flex;
         flex-flow: column;
+        
 
     }
 
@@ -78,6 +84,7 @@
     .confidence-group-items{
         max-width: 40%;
         min-width: 40%;
+        border-bottom: none;
     }
 
 
