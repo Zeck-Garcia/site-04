@@ -261,6 +261,7 @@
 }
 
 .card-comment-box-local{
+    padding-top: 10px;
     font-weight: 600;
     font-size: 0.9rem;
 }
@@ -357,6 +358,7 @@
 
 .reserve-group-title{
     font-weight: 600;
+    text-align: center;
 }
 
 .reserve-group-text{
