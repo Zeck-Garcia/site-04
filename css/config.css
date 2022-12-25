@@ -1,7 +1,8 @@
 /* font-family: 'Noto Sans Mono', monospace; */
 
 *{
-    font-family: 'Noto Sans Mono'
+    font-family: 'Noto Sans Mono';
+    font-size: 100%;
 }
 
 html{

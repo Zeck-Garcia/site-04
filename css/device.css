@@ -41,7 +41,8 @@
 @media (min-width: 800px){
    
     .main-header-title{
-        padding: 0 70px;
+        width: 60%;
+        margin: auto;
 
     }
 
